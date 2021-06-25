@@ -6,16 +6,16 @@
 <script type="text/template" id="chatlist_item">
 <div>
 	<div style="align-items: center;display: flex;margin-bottom: 10px;margin-top: 20px">
-  	<img class="icon" id="img" src= "https://i1.sndcdn.com/artworks-000391410789-6kz00w-t500x500.jpg">
-  	<div style="color: green;margin-left: 10px;">
+  	<img class="icon" id="img" src= "https://mostazaniikkkk.github.io/HTML-Trabajo/ico/{from}.png" onerror="this.src='https://mostazaniikkkk.github.io/HTML-Trabajo/ico/none.png'">
+  	<div style="color: {color};margin-left: 10px;">
     	<span class="name" id="username" style:margin-bottom: 0px;>{from}</span> </br>
-      <span style="font-size: 20px;margin-top: 0px;">viewer</span>
-      <span style="font-size: 20px;margin-top: 0px;" class="badges"></span>
+      	<span style="font-size: 20px;margin-top: 0px;">viewer</span>
+      	<span style="font-size: 20px;margin-top: 0px;" class="badges"></span>
   	</div>
   </div>
 	<div data-from="{from}" data-id="{messageId}">
     <span class="message" style="border-radius: 30px;background: linear-gradient(90deg, {color}, #fa0881);">
-      <div style="margin: 20px;">
+     	<div style="margin: 20px;">
       	{message}
   		</div>
     </span>

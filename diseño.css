@@ -97,6 +97,8 @@ body {
 }
 
 .icon {
-  width: 80px;
   border-radius: 50px;
+  width: 80px;
+  overflow:hidden;
+  background-image: url(https://mostazaniikkkk.github.io/HTML-Trabajo/ico/none.png);
 }
