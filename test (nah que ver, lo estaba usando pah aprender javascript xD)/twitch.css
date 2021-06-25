@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'MsPain';
+	src: url(https://mostazaniikkkk.github.io/HTML-Trabajo/css/MS_PAIN.woff);
+}
+
+body{
+    font-family: 'MsPain';
+}
+
+.icon{
+    width: 40px;
+    margin-top: 10px;
+    background-image: url(https://mostazaniikkkk.github.io/HTML-Trabajo/css/cuadro.png);
+    color: #fa0881;
+}
